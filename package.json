@@ -1,7 +1,7 @@
 {
-  "name": "otakuwire",
+  "name": "zeds-log",
   "version": "1.0.0",
-  "description": "A simple anime & manga news aggregator",
+  "description": "Zed's Log — anime & manga news aggregator by @mugiwara_no_Zed",
   "private": true,
   "license": "MIT",
   "engines": { "node": ">=18" },

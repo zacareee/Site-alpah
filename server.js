@@ -55,6 +55,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`OtakuWire running at http://localhost:${PORT}`);
+  console.log(`Zed's Log running at http://localhost:${PORT}`);
   getNews().catch((err) => console.error('Initial fetch failed:', err.message));
 });

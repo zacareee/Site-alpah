@@ -86,7 +86,7 @@ function renderCard(item) {
     const on = state.saved.has(item.link);
     save.classList.toggle('on', on);
     save.textContent = on ? '★' : '☆';
-    save.setAttribute('aria-label', on ? 'Remove from saved' : 'Save article');
+    save.setAttribute('aria-label', on ? 'Remove from treasure' : 'Save to treasure');
   };
   save.onclick = () => {
     if (state.saved.has(item.link)) state.saved.delete(item.link);
@@ -105,7 +105,7 @@ function render() {
   grid.replaceChildren(...list.slice(0, state.shown).map(renderCard));
   $('#more').hidden = list.length <= state.shown;
   if (list.length === 0) {
-    $('#status').textContent = state.topic === 'saved' ? 'Nothing saved yet — tap ☆ on any article.' : 'No articles match. Try a different search or turn on more sources.';
+    $('#status').textContent = state.topic === 'saved' ? 'No treasure yet — tap ☆ on any article to stash it.' : 'No articles match. Try a different search or turn on more sources.';
   } else {
     $('#status').textContent = '';
   }
@@ -149,7 +149,7 @@ async function init() {
     renderSources();
     render();
   } catch (err) {
-    $('#status').textContent = `Couldn't load news (${err.message}). Try again in a moment.`;
+    $('#status').textContent = `Rough seas — couldn't load news (${err.message}). Try again in a moment.`;
   }
 }
 

@@ -1,10 +1,12 @@
-# OtakuWire 報
+# Zed's Log 🏴‍☠️
+
+Anime & manga news, charted by [@mugiwara_no_Zed](https://x.com/mugiwara_no_Zed).
 
 A simple website that aggregates **anime and manga news** from around the web into one fast, searchable feed.
 
 - Pulls RSS/Atom feeds from Anime News Network, Crunchyroll News, MyAnimeList, Anime Corner, Otaku USA, Anime Herald, Anime UK News, Sakugabooru, CBR and The Beat
 - Auto-tags every story as **anime**, **manga**, or both
-- Search (press `/`), topic tabs, per-source toggles, and ★ saved articles (stored in your browser)
+- Search (press `/`), topic tabs, per-source toggles, and ★ Treasure — saved articles, stored in your browser
 - De-duplicates stories, sorts newest first, works on mobile, light & dark mode
 - Zero dependencies — just Node.js 18+
 
