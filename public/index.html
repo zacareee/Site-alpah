@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OtakuWire — Anime &amp; Manga News</title>
+  <meta name="description" content="Anime and manga news from across the web, in one place.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">報</span>
+        <span>Otaku<b>Wire</b></span>
+      </a>
+      <label class="search">
+        <span class="visually-hidden">Search news</span>
+        <input id="q" type="search" placeholder="Search titles, series, studios…" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+    </div>
+    <nav class="wrap tabs" aria-label="Topic">
+      <button class="tab active" data-topic="all">All</button>
+      <button class="tab" data-topic="anime">Anime</button>
+      <button class="tab" data-topic="manga">Manga</button>
+      <button class="tab" data-topic="saved">★ Saved</button>
+      <span class="meta" id="updated"></span>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <details class="sources" id="sources-box">
+      <summary>Sources <span id="source-count"></span></summary>
+      <div class="chips" id="sources"></div>
+    </details>
+
+    <p class="status" id="status">Loading the latest news…</p>
+    <section class="grid" id="grid" aria-live="polite"></section>
+    <button class="more" id="more" hidden>Load more</button>
+  </main>
+
+  <footer class="wrap foot">
+    Headlines link to their original publishers. OtakuWire only aggregates public RSS feeds.
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <a class="thumb" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt=""></a>
+      <div class="body">
+        <div class="row">
+          <span class="source"></span>
+          <span class="topics"></span>
+        </div>
+        <h2><a target="_blank" rel="noopener noreferrer"></a></h2>
+        <p class="summary"></p>
+        <div class="row foot-row">
+          <time></time>
+          <button class="save" aria-label="Save article">☆</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

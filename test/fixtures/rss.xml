@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Example News</title>
+    <item>
+      <title><![CDATA[Frieren Season 2 Gets January Premiere & New Trailer]]></title>
+      <link>https://example.com/news/frieren-s2</link>
+      <pubDate>Mon, 26 Oct 2026 14:30:00 GMT</pubDate>
+      <category>Anime</category>
+      <media:thumbnail url="https://example.com/img/frieren.jpg" />
+      <description>&lt;p&gt;The anime returns with a new PV &amp;mdash; &amp;ldquo;Journey&amp;rsquo;s End&amp;rdquo; arc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chainsaw Man Manga Hits Volume 20</title>
+      <link>https://example.com/news/csm-vol20</link>
+      <pubDate>Sun, 25 Oct 2026 10:00:00 +0900</pubDate>
+      <description><![CDATA[<img src="https://example.com/img/chainsaw.png" /><p>Volume 20 ships next month.</p>]]></description>
+    </item>
+  </channel>
+</rss>

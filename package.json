@@ -1,0 +1,13 @@
+{
+  "name": "otakuwire",
+  "version": "1.0.0",
+  "description": "A simple anime & manga news aggregator",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js"
+  }
+}

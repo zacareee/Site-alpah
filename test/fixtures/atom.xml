@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Atom</title>
+  <entry>
+    <title type="html">One Piece manga goes on break</title>
+    <link rel="alternate" href="https://example.org/one-piece-break"/>
+    <updated>2026-10-25T08:00:00Z</updated>
+    <category term="Manga"/>
+    <summary>Oda takes a short rest.</summary>
+  </entry>
+</feed>
