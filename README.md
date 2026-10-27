@@ -29,10 +29,6 @@ The included workflow (`.github/workflows/pages.yml`) runs `npm run build` every
 
 Edit [`feeds.js`](feeds.js). Each entry needs a `name`, a feed `url`, a default `kind` (`anime` or `manga`), and a `site` link.
 
-## Branding
-
-The avatar, banner and icons in [`public/img`](public/img) come from the [@mugiwara_no_Zed](https://x.com/mugiwara_no_Zed) X profile. To update them, drop in replacements with the same file names (the banner looks best at 1500×500 or larger). Colours live at the top of [`public/style.css`](public/style.css).
-
 ## Tests
 
 ```bash
